@@ -8,7 +8,7 @@ source /pgenv.sh
 MYDATE=`date +%d-%B-%Y`
 MONTH=$(date +%B)
 YEAR=$(date +%Y)
-MYBASEDIR=/backups
+MYBASEDIR=$DUMPPATH
 MYBACKUPDIR=${MYBASEDIR}/${YEAR}/${MONTH}
 mkdir -p ${MYBACKUPDIR}
 cd ${MYBACKUPDIR}
